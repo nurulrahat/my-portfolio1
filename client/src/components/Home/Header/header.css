@@ -1,0 +1,33 @@
+.headerCls{
+
+
+}
+.headerBackCls img{
+   height: 100vh;
+   
+}
+.headerDetails{
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 10%;
+    color: aliceblue;
+}
+.headerDetails ul{
+   list-style: none;
+}
+.headerDetails li {
+  
+    border: 2px solid #f85858;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 6px;
+}
+.headerDetails li a{
+    color: white;
+   
+}
+.headerDetails p{
+    font-size: 50px;
+    color:#f85858;
+}

@@ -1,0 +1,11 @@
+.navCls{
+    background: rgba(51, 51, 51, 0.7);
+    z-index: 555;
+    position: fixed;
+}
+.nav-link {
+    color: aliceblue;
+}
+.toggleBar{
+    color: aliceblue;
+}
