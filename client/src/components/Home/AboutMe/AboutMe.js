@@ -56,9 +56,13 @@ const AboutMe = () => {
                                 <li>Netlify</li>
                             </ul>
                         </div>
-                        <div className=" text-center">
-                            <button type="button" class="btn btn-outline-success d-inline-block px-3">
-                                <FaFileDownload></FaFileDownload> RESUME</button>
+                        <div className="ms-md-5">
+                        <a target="_blank" href="https://drive.google.com/file/d/1F_bQYppyjQrhlhcMvDJVXv4njKc13-Q_/view?usp=sharing">  <button type="button" class="btn btn-outline-success d-inline-block px-3">
+                             <FaFileDownload></FaFileDownload> RESUME</button>
+                              </a>
+
+                              <button type="button" class="btn btn-outline-success d-inline-block px-3 ms-3">
+                             Hire Me</button>
                         </div>
                     </div>
                     </ScrollAnimation>
