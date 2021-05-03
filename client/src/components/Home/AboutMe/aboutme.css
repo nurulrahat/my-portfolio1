@@ -3,3 +3,9 @@
     width: 91%;
     height: 400px;
 }
+#about{
+    background: #00ff94;
+background: linear-gradient(127deg,#00ff94 0%, #00e0ff 100%);
+background: -webkit-linear-gradient(127deg,#00ff94 0%, #00e0ff 100%);
+background: -moz-linear-gradient(127deg,#00ff94 0%, #00e0ff 100%);
+}
