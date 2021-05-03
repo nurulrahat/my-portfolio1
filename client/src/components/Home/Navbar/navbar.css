@@ -4,8 +4,8 @@
     position: fixed;
 }
 .nav-link {
-    color: aliceblue;
+    color: rgb(6, 224, 123);
 }
-.toggleBar{
-    color: aliceblue;
+.navbar-toggler-icon{
+    color: rgb(245, 245, 245);
 }

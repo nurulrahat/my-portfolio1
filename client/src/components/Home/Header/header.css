@@ -18,7 +18,7 @@
 }
 .headerDetails li {
   
-    border: 2px solid #f85858;
+    border: 2px solid #06e07b;
     border-radius: 50%;
     margin: 0 10px;
     padding: 6px;
@@ -29,5 +29,5 @@
 }
 .headerDetails p{
     font-size: 50px;
-    color:#f85858;
+    color: rgb(6, 224, 123);
 }

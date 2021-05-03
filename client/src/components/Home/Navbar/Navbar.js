@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react';
+import { FaBars } from 'react-icons/fa';
 import './navbar.css';
 
 const Navbar = () => {
@@ -8,7 +10,7 @@ const Navbar = () => {
                 <div class="container ">
                     <a class="navbar-brand text-light" href="#">Nurul-Rahat</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon "><FaBars></FaBars></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto ">
@@ -16,7 +18,7 @@ const Navbar = () => {
                                 <a class="nav-link active " aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item px-lg-2">
-                                <a class="nav-link" href="#">ABOUT</a>
+                       <a class="nav-link" href="#about">ABOUT</a>
                             </li>
                             <li class="nav-item px-lg-2">
                                 <a class="nav-link" href="#">SERVICE</a>
